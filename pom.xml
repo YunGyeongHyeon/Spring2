@@ -6,6 +6,11 @@
 	<artifactId>SpringProgramming2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	
+	<properties>
+		<spring-version>5.2.0.RELEASE</spring-version>
+		<version>5.2.0.RELEASE</version>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -25,7 +30,13 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>5.2.0.RELEASE</version>
+			<version>${version}</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-jdbc</artifactId>
+		    <version>${version}</version>
 		</dependency>
 		
 		<dependency>
@@ -39,8 +50,28 @@
 		    <artifactId>commons-fileupload</artifactId>
 		    <version>1.4</version>
 		</dependency>
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-dbcp2</artifactId>
+		    <version>2.7.0</version>
+		</dependency>
 		
+		<dependency>
+		    <groupId>org.mybatis</groupId>
+		    <artifactId>mybatis</artifactId>
+		    <version>3.5.2</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.mybatis</groupId>
+		    <artifactId>mybatis-spring</artifactId>
+		    <version>2.0.2</version>
+		</dependency>
+		
+		
+
 	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
