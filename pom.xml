@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mycompany</groupId>
 	<artifactId>SpringProgramming2</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>5.2.20.RELEASE</version>
 	<packaging>war</packaging>
 	
 	<properties>
